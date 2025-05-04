@@ -1,0 +1,9 @@
+# Vault CLI - A minimal Encryted Notes Manager in the Terminal 
+
+## Concept: 
+* Command-line to: 
+    * `vault new <title> <content>`: Add a new encrypted note 
+    * `vault list`: Show all note titles (not content)
+    * `vault read <title>`: Decrypt and view a note 
+    * `vault delete <title>`: Remove a note 
+* Encrypt/decrypt notes using a master password and AES or ChaCha20.
