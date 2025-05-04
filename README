@@ -1,9 +1,28 @@
-# Vault CLI - A minimal Encryted Notes Manager in the Terminal 
+# 🔐 Vault CLI
 
-## Concept: 
-* Command-line to: 
-    * `vault new <title> <content>`: Add a new encrypted note 
-    * `vault list`: Show all note titles (not content)
-    * `vault read <title>`: Decrypt and view a note 
-    * `vault delete <title>`: Remove a note 
-* Encrypt/decrypt notes using a master password and AES or ChaCha20.
+A simple command-line tool to **create, read, list, and delete encrypted notes**. Notes are stored securely using AES-256-GCM encryption. Built with 💖 using Rust!
+
+## ✨ Features
+
+- Add new encrypted notes
+- List decryptable notes
+- Read individual notes
+- Securely delete notes
+- Password-based encryption using SHA-256 derived key
+- Notes stored locally in `vault.json`
+
+## 🚀 Getting Started
+
+### 🛠 Requirements
+
+- Rust (https://www.rust-lang.org/tools/install)
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/your-username/vault-cli.git
+cd vault-cli
+cargo build --release
+```
+
+### 🧪 Run 
